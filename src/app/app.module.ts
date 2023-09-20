@@ -21,7 +21,7 @@ import { HomeComponent } from './home/home.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
-import {MatDialog, MatDialogModule} from '@angular/material/dialog';
+
 import { DialogComponent } from './dialog/dialog.component';
 
 
@@ -52,7 +52,7 @@ import { DialogComponent } from './dialog/dialog.component';
     LayoutModule,
     MatProgressSpinnerModule,
     MatExpansionModule,
-    MatDialog, MatDialogModule
+    
   
     
     
