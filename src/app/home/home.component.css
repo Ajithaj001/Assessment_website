@@ -1,0 +1,80 @@
+.spinner-border {
+    width: 100px;
+    height: 100px;
+    color: rgb(14, 29, 234);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.homePage {
+    padding: 82px;
+}
+
+.profile img {
+    opacity: 0.9;
+    box-shadow: 4px 4px 4px 4px rgb(208, 208, 222);
+    opacity: 0;
+    animation: fadeIn 1s ease-out 1s forwards;
+}
+
+.no-list-style {
+    list-style: none;
+    opacity: 0;
+    box-shadow: 4px 4px 4px 4px rgb(208, 208, 222);
+    animation: fadeIn 2s ease-out 2s forwards;
+}
+
+.btn-primary {
+    background-color: #3F51B5;
+    animation: fadeIn 3s ease-out 3s forwards;
+    opacity: 0;
+}
+
+.no-list-style i {
+    color: rgb(14, 29, 234);
+}
+
+.headerExpansion i {
+    color: rgb(14, 29, 234);
+}
+
+.projects i {
+    color: rgb(14, 29, 234);
+}
+
+.skillview i {
+    color: rgb(14, 29, 234);
+}
+
+.expansion:hover {
+    background-color: rgb(14, 29, 234);
+}
+
+.progress-bar {
+    background-color: rgb(14, 29, 234);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width:1170px) {
+    .profile img {
+        width: 200px;
+    }
+    .no-list-style {
+        position: relative;
+        width: 345px;
+        right: 70px;
+    }
+    .projects {
+        position: relative;
+        width: 300px;
+    }
+}

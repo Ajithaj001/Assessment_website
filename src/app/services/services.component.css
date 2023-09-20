@@ -1,0 +1,36 @@
+.container-fluid {
+    width: 100%;
+    padding: 100px;
+    position: auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+i {
+    color: rgb(14, 29, 234);
+}
+
+.service {
+    border: 1px solid rgb(208, 208, 222);
+    box-shadow: 4px 4px 4px rgb(208, 208, 222);
+}

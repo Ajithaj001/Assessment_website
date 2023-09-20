@@ -1,0 +1,26 @@
+<!-- <nav class="navheader bg-primary">
+
+
+    <div class="row d-flex flex-wrap">
+        <div class="col-md-11">
+            <button type="button" (click)="toggleSidenav()">
+                open
+              </button>
+
+        </div>
+        <div class="col justify-content-end align-item-end">
+            <span class=" text-end ">App Header</span>
+
+        </div>
+    </div>
+</nav> -->
+
+<mat-toolbar class="header" color="primary">
+    <div class="left-content ">
+        <button (click)="toggleSidenav()"><i *ngIf="isvisible" class="fa-solid fa-xmark text-white"></i> <i *ngIf="!isvisible" ng class="fa-solid fa-bars text-white"></i></button>
+    </div>
+
+    <div class="right-content">
+        <span class=" fs-2 "> <i class="fa-solid fa-briefcase"></i>&nbsp; Portfolio</span>
+    </div>
+</mat-toolbar>

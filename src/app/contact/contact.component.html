@@ -1,0 +1,54 @@
+<div class="container-fluid">
+    <div class="row contact">
+        <h2><i class="fa-solid fa-link"></i>&nbsp;contact me</h2>
+        <div class="col-md-4">
+            <div class="row p-4 g-5 d-flex flex-wrap">
+                <div class="col-md-12">
+                    <a href="https://instagram.com/ajith_paji?igshid=OGQ5ZDc2ODk2ZA==" class="  nav-link"> <i class="fa-brands fa-square-instagram "> </i> &nbsp; <span>instagram</span></a>
+
+                </div>
+                <div class="col-md-12">
+                    <a href="https://www.linkedin.com/in/ajith-r-8a413617b" class=" nav-link"> <i class="fa-brands fa-linkedin "></i> &nbsp; <span>Linkedin</span></a>
+
+                </div>
+                <div class="col-md-12">
+                    <a href="https://wa.me/+91-8870360992" class=" nav-link"> <i class="fa-brands fa-square-whatsapp"></i> &nbsp; <span>Whatsapp</span></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <p><i class="fa-solid fa-comment"></i>&nbsp;leave a comment</p>
+            <form action="" [formGroup]="submitquery">
+                <div class=" row d-flex">
+                    <div class="col-md-6">
+                        <input type="text" formControlName="fname" class="form-control   input-placeholder-color" placeholder="First name" aria-label="First name">
+                        <p class="text-danger">{{nameerror}}</p>
+                    </div>
+
+                    &nbsp;&nbsp;
+                    <div class="col-md-6">
+                        <input type="text " formControlName="email" class="form-control  input-placeholder-color" placeholder="Email" aria-label="Last name">
+                        <p class="text-danger">{{mailerror}}</p>
+                    </div>
+                </div><br>
+                <div class="col-md-12">
+                    <textarea formControlName="comments" class="form-control   input-placeholder-color" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <p class="text-danger">{{commentserror}}</p>
+                </div><br>
+                <div class="home-btn">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary" (click)="Onsubmit()"> submit</button>
+                </div>
+                <div *ngIf="popup" class="col p-5">
+                    <h3>
+                        <i class="fa-solid fa-circle-check"></i>&nbsp;thank you {{name}} ! Will get back to you
+                    </h3>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+</div>

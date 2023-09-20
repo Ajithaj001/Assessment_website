@@ -1,0 +1,14 @@
+.container-fluid {
+    padding-left: 0;
+    /* Adjust as needed */
+    /* Other content styles */
+}
+
+#scrollToTopButton {
+    /* Initially hide the button */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #3F51B5
+}

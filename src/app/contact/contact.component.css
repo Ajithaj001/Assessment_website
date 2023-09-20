@@ -1,0 +1,21 @@
+.container-fluid {
+    padding: 127px;
+}
+
+.input-placeholder-color::placeholder {
+    color: rgb(20, 7, 7);
+    /* Replace 'red' with your desired color */
+}
+
+.contact {
+    border: 1px solid rgb(208, 208, 222);
+    box-shadow: 4px 4px 4px rgb(208, 208, 222);
+}
+
+button {
+    background-color: #3F51B5;
+}
+
+i {
+    color: #3F51B5;
+}
